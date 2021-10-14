@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+*{
+    margin: 0;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+    background: hsl(0, 5%, 96%);
+}
+
+p {
+    width: 600px;
+    font-size: 1rem;
+    line-height: 2rem;  
+    
+}
+
+#quiz {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.question {
+    background: #2db67d;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin-bottom: 25px;
+    color: white;
+    box-shadow: 0px 5px 10px rgb(201, 200, 200);
+}
+
+.answers {
+    cursor: pointer;
+    font-weight: 400;
+    background-color: rgb(238, 236, 236);
+    border-bottom: 1px solid lightgray;
+    box-shadow: 0px 5px 10px lightgray;
+}
+
+.answers:hover {
+    background-color: white;
+    color: black;
+}
+
+input[type=checkbox] {
+    width: 35px;
+}
+
+input[type=checkbox] {
+    padding-left:5px;
+    padding-right:5px;
+    border-radius:15px;
+
+    -webkit-appearance:button;
+
+    border: double 2px #00F;
+
+    background-color:#0b0095;
+    color:#FFF;
+    white-space: nowrap;
+    overflow:hidden;
+
+    width:15px;
+    height:15px;
+}
+
+input[type=checkbox]:checked {
+    background-color:#000;
+    border-left-color:#06F;
+    border-right-color:#06F;
+}
+
+input[type=checkbox]:hover {
+    box-shadow:0px 0px 10px hsl(0, 0%, 89%);
+}
+
+span {
+    width: 5px;
+    height: 5px;
+    text-align: center;
+    line-height: 5px;
+    background: #ffffff;
+    color: grey;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 0;
+    font-size: 12px;
+    font-weight: 600;
+    transform: translateY(-2px);
+    
+}
